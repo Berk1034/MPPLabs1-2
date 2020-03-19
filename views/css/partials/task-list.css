@@ -1,0 +1,17 @@
+.task-list-wrapper {
+    padding-bottom: 5em;
+}
+
+table, th, td {
+    border: 2px solid black;
+}
+
+table th {
+    text-align: center;
+}
+
+table td {
+    text-align: center;
+    padding-right: 1.5em;
+    padding-left: 1.5em
+}

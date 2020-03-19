@@ -1,0 +1,18 @@
+.wrapper {
+    width: 1000px;
+    margin: auto;
+    padding: 0 2em;
+    font-size: 130%;
+}
+
+body{
+    background-color: #dfe6e9;
+}
+
+h3{
+    font-size: 30px;
+}
+
+h3 {
+    padding-left: 15em;
+}

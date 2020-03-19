@@ -1,0 +1,17 @@
+<div class="add-task-form-wrapper">
+    <h3>Add Task</h3>
+    <form action="/node/tasks" method="post" enctype="multipart/form-data">
+
+        <input type="text" required="required" name="name" placeholder="Task name">
+
+        <select name="status">
+            <% statuses.map((status) => { %>
+                <option value="<%= status %>"><%= status %></option>
+            <% }) %>
+        </select>
+
+        <input type="file" name="file">
+
+        <input type="submit" value="OK">
+    </form>
+</div>

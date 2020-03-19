@@ -1,0 +1,21 @@
+<div class="task-list-wrapper">
+    <h3>Task List</h3>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Status</th>
+            <th>Date Created</th>
+            <th>Time Created</th>
+            <th>Attached file</th>
+        </tr>
+        <% tasks.map((task) => { %>
+            <tr>
+                <td><%= task.name %></td>
+                <td><%= task.status %></td>
+                <td><%= task.date_created %></td>
+                <td><%= task.time_created %></td>
+                <td><%= task.file %></td>
+            </tr>
+        <% }) %>
+    </table>
+</div>
